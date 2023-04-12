@@ -1,5 +1,6 @@
-const nickname= null;
-const firstname = null;
+const nickname= 'Timmy';
+const firstname = 'Timothy';
+// Created  new greeting variable
 const greeting = nickname || firstname ? `Good morning, ${nickname || firstname}!` : 'Good morning!'
 
 console.log(greeting)
